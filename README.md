@@ -13,8 +13,8 @@
      such as rainy, cloudy, and others
  
  - ## API Link
-Weather Api:[https://lucky-pet.herokuapp.com](https://goweather.herokuapp.com/weather/saudi%20Arabia)
-Country Apis:[https://documenter.getpostman.com/view/21096300/Uz5NjYSF](https://restcountries.com/v3.1/all)
+- Weather Api: [https://lucky-pet.herokuapp.com](https://goweather.herokuapp.com/weather/saudi%20Arabia)
+- Country Apis: [https://documenter.getpostman.com/view/21096300/Uz5NjYSF](https://restcountries.com/v3.1/all)
 
 - ## Live demo 
 https://incredible-treacle-8c5ae8.netlify.app
