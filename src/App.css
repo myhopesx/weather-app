@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.rainy {
+  background-image: url("../public/images/rainy.jfif");
+}
+
+.cloudy {
+  background-image: url("../public/images/cloudy.jfif");
+}
+
+.sunny {
+  background-image: url("../public/images/sunny.jfif");
+}
+
+.foggy {
+  background-image: url("../public/images/foggy.jfif");
+}
+
+.snowy {
+  background-image: url("../public/images/snowy.jfif");
+}
+
+.details {
+  padding-top: 5rem;
+  padding-left: 2.5rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  color: #e9ecef;
+  height: 100vh;
+  width: 35%;
+  background-color: rgba(13, 13, 14, 0.482);
+  float: right;
+}
+
+.days {
+  padding-bottom: 1.5rem;
+}
+
+.Temprutere {
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+.Temprutere .temp {
+  font-size: 6rem;
+  font-weight: bolder;
+}
+
+.Temprutere .city {
+  font-size: 3rem;
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+
+.Temprutere .more {
+  font-weight: bolder;
+  font-size: 0.9rem;
+}
+
+.Temprutere .des {
+  font-size: 1.4rem;
+}
+
+.search {
+  width: 90%;
+}
+
+.search .select {
+  color: black;
+}
+
+.des {
+  margin-top: 2rem;
+}
+
+.more {
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+hr {
+  color: rgb(214, 204, 204);
+  width: 90%;
+}
+
+.more-info {
+  position: absolute;
+  top: 93%;
+  left: 79%;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  color: #072a4d;
+  text-decoration: none;
+}
+
+.about {
+  height: 100vh;
+  background-image: url("../public/images/about.jfif");
+}
+
+.info {
+  padding: 2rem;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  height: 60%;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.918);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.info .title {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 2rem;
+  color: #264653;
+}
+
+.info .story p {
+  padding: 0 5rem;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+.info .used {
+  font-weight: bolder;
+  color: #457b9d;
+}
+
+.info .api1,
+.api2 {
+  font-size: 1rem;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.loader h6 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
